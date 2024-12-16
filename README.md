@@ -20,4 +20,23 @@ Jako výstup musí program vytvořit soubor `ukol1_output.json`. Výstupní soub
 Soubor odevzdej jako Python skript pojmenovaný `prijmeni_jmeno_1.py`. 
 
 - **Příklad výsledku**:
-  Pokud by soubor `alice.txt` obsahoval větu:
+  Pokud by soubor `alice.txt` obsahoval větu: Datová akademie se mi moc líbila. 
+
+Výstup by byl následující:
+
+```json
+{
+    "a": 5,
+    "b": 1,
+    "c": 1,
+    "d": 2,
+    "e": 3,
+    "i": 4,
+    "k": 1,
+    "l": 2,
+    "m": 3,
+    "o": 2,
+    "s": 1,
+    "t": 1,
+    "v": 1
+}
