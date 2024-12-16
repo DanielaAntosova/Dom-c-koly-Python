@@ -41,7 +41,7 @@ Výstup by byl následující:
     "v": 1
 }
 
-
+```
 # Úkol 2
 
 ## Zadání
