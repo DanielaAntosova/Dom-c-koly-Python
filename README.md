@@ -1,1 +1,1 @@
-# Dom-c-koly-Python
+# Zadání domácích úkolů Python
