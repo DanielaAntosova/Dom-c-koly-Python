@@ -4,7 +4,7 @@
 # Úkol 1
 
 ## Zadání
-Napiš skript v Pythonu, který otevře soubor `alice.txt` (*Alice’s Adventures in Wonderland* od Lewise Carrolla) - ke stažení v [1] a spočítá četnost (počet výskytů) všech znaků. 
+Napiš skript v Pythonu, který otevře soubor `alice.txt` a spočítá četnost (počet výskytů) všech znaků. 
 
 - **Pravidla**:
   - Velká písmena převeď na malá.
@@ -40,3 +40,38 @@ Výstup by byl následující:
     "t": 1,
     "v": 1
 }
+
+
+# Úkol 2
+
+## Zadání
+
+V tomto úkolu budeš pracovat se souborem `netflix_titles.tsv`. Jedná se o textový soubor ve formátu TSV (*Tabulator Separated Values*), kde jsou jako oddělovače sloupců použity tabulátory (`\t`). Tvým úkolem bude:
+
+1. Načíst soubor.
+2. Vytáhnout z něj některé údaje.
+3. Uložit data ve formátu JSON.
+
+## Požadavky
+
+Z každého řádku nás budou zajímat tyto údaje:
+- `PRIMARYTITLE` (název),
+- `DIRECTOR` (režisér/režiséři),
+- `CAST` (herci),
+- `GENRES` (seznam žánrů),
+- `STARTYEAR` (rok vydání).
+
+Údaje o filmech převeď do seznamu, kde bude každý film reprezentován jako slovník obsahující následující položky:
+- **title**: název filmu,
+- **directors**: seznam všech režisérů nebo prázdný seznam, pokud není režisér uveden,
+- **cast**: seznam všech herců nebo prázdný seznam, pokud není žádný herec uveden,
+- **genres**: seznam všech žánrů, do kterých byl film zařazen,
+- **decade**: dekáda, ve které film vznikl.
+
+## Formát dat
+
+- **Herci a režiséři**: V souboru jsou uvedeni jako jeden řetězec, jednotlivé hodnoty jsou oddělené čárkami (např. `Morgan Freeman, Monica Potter, Michael Wincott`). 
+- Ve formátu JSON použij seznam, aby bylo jasné, kolik herců nebo režisérů v seznamu je. Například:
+  ```json
+  ["Morgan Freeman", "Monica Potter", "Michael Wincott"]
+
