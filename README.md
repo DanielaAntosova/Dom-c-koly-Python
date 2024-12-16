@@ -17,7 +17,7 @@ Jako výstup musí program vytvořit soubor `ukol1_output.json`. Výstupní soub
 2. Obsahovat slovník, kde klíče jsou znaky a hodnoty jejich četnost.
 3. **Volitelné**: Slovník má být seřazen podle klíčů.
 
-Soubor odevzdej jako Python skript pojmenovaný `prijmeni_jmeno_1.py`. 
+Zde odkaz na výsledný script: 
 
 - **Příklad výsledku**:
   Pokud by soubor `alice.txt` obsahoval větu: Datová akademie se mi moc líbila. 
