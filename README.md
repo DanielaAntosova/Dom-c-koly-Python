@@ -87,6 +87,7 @@ Ve formátu JSON použij **seznam**, aby bylo jasné, kolik herců nebo režisé
 
 ```json
 ["Morgan Freeman", "Monica Potter", "Michael Wincott"]
+```
 
 
 🔗 **Zde odkaz na výsledný skript**: [antosova_daniela_2.py](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_2.py)
