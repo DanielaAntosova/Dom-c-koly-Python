@@ -17,8 +17,8 @@ Jako výstup musí program vytvořit soubor `ukol1_output.json`. Výstupní soub
 2. Obsahovat slovník, kde klíče jsou znaky a hodnoty jejich četnost.
 3. **Volitelné**: Slovník má být seřazen podle klíčů.
 
-Zde odkaz na výsledný script: 
-
+Zde odkaz na výsledný [skript](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_1.py)
+ 
 - **Příklad výsledku**:
   Pokud by soubor `alice.txt` obsahoval větu: Datová akademie se mi moc líbila. 
 
@@ -74,4 +74,6 @@ Z každého řádku nás budou zajímat tyto údaje:
 - Ve formátu JSON použij seznam, aby bylo jasné, kolik herců nebo režisérů v seznamu je. Například:
   ```json
   ["Morgan Freeman", "Monica Potter", "Michael Wincott"]
+
+Zde odkaz na výsledný [skript](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_2.py)
 
