@@ -45,38 +45,49 @@ Výstup by byl následující:
 }
 ```
 
-# Úkol 2
+## 🎬 Úkol 2
 
-## Zadání
+### 🔍 Zadání
+V tomto úkolu budeš pracovat se souborem `netflix_titles.tsv`. Jedná se o textový soubor ve formátu **TSV** (Tabulator Separated Values), kde jsou jako oddělovače sloupců použity **tabulátory** (`\t`).  
 
-V tomto úkolu budeš pracovat se souborem `netflix_titles.tsv`. Jedná se o textový soubor ve formátu TSV (*Tabulator Separated Values*), kde jsou jako oddělovače sloupců použity tabulátory (`\t`). Tvým úkolem bude:
+Tvým úkolem bude:
 
-1. Načíst soubor.
-2. Vytáhnout z něj některé údaje.
-3. Uložit data ve formátu JSON.
+1. 📥 **Načíst soubor**.  
+2. 🗂️ **Vytáhnout z něj některé údaje**.  
+3. 💾 **Uložit data ve formátu JSON**.  
 
-## Požadavky
+---
 
+### ✅ **Požadavky**:
 Z každého řádku nás budou zajímat tyto údaje:
-- `PRIMARYTITLE` (název),
-- `DIRECTOR` (režisér/režiséři),
-- `CAST` (herci),
-- `GENRES` (seznam žánrů),
-- `STARTYEAR` (rok vydání).
 
-Údaje o filmech převeď do seznamu, kde bude každý film reprezentován jako slovník obsahující následující položky:
-- **title**: název filmu,
-- **directors**: seznam všech režisérů nebo prázdný seznam, pokud není režisér uveden,
-- **cast**: seznam všech herců nebo prázdný seznam, pokud není žádný herec uveden,
-- **genres**: seznam všech žánrů, do kterých byl film zařazen,
-- **decade**: dekáda, ve které film vznikl.
+- 🎬 **PRIMARYTITLE** (název),  
+- 🎥 **DIRECTOR** (režisér/režiséři),  
+- 👥 **CAST** (herci),  
+- 🎭 **GENRES** (seznam žánrů),  
+- 🗓️ **STARTYEAR** (rok vydání).  
 
-## Formát dat
+---
 
-- **Herci a režiséři**: V souboru jsou uvedeni jako jeden řetězec, jednotlivé hodnoty jsou oddělené čárkami (např. `Morgan Freeman, Monica Potter, Michael Wincott`). 
-- Ve formátu JSON použij seznam, aby bylo jasné, kolik herců nebo režisérů v seznamu je. Například:
-  ```json
-  ["Morgan Freeman", "Monica Potter", "Michael Wincott"]
+### 📋 Formát dat:
+Údaje o filmech převeď do seznamu, kde bude každý film reprezentován jako **slovník** obsahující následující položky:
 
-Zde odkaz na výsledný [skript](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_2.py).
+- 🎬 `title`: název filmu,  
+- 🎥 `directors`: seznam všech režisérů nebo prázdný seznam, pokud není režisér uveden,  
+- 👥 `cast`: seznam všech herců nebo prázdný seznam, pokud není žádný herec uveden,  
+- 🎭 `genres`: seznam všech žánrů, do kterých byl film zařazen,  
+- 📅 `decade`: dekáda, ve které film vznikl.  
+
+---
+
+### 🔗 **Herci a režiséři**:
+V souboru jsou uvedeni jako jeden řetězec, jednotlivé hodnoty jsou oddělené **čárkami** (např. `Morgan Freeman, Monica Potter, Michael Wincott`).  
+
+Ve formátu JSON použij **seznam**, aby bylo jasné, kolik herců nebo režisérů v seznamu je. Například:
+
+```json
+["Morgan Freeman", "Monica Potter", "Michael Wincott"]
+
+
+🔗 **Zde odkaz na výsledný skript**: [antosova_daniela_2.py](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_2.py)
 
