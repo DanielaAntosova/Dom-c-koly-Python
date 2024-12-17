@@ -1,26 +1,29 @@
-# Zadání domácích úkolů Python
+# 📚 Zadání domácích úkolů Python
 
+## 📝 Úkol 1
 
-# Úkol 1
+### 🔍 Zadání
+Napiš skript v Pythonu, který otevře soubor `alice.txt` a spočítá četnost (počet výskytů) všech znaků.
 
-## Zadání
-Napiš skript v Pythonu, který otevře soubor `alice.txt` a spočítá četnost (počet výskytů) všech znaků. 
+#### 📜 Pravidla:
+- 🔠 **Velká písmena** převeď na **malá**.  
+- 🚫 Ignoruj **mezery** a **znaky nového řádku**.  
+- 🔣 Ostatní znaky (např. čárky nebo závorky) **zařaď do výsledku**.  
 
-- **Pravidla**:
-  - Velká písmena převeď na malá.
-  - Ignoruj mezery a znaky nového řádku.
-  - Ostatní znaky (např. čárky nebo závorky) zařaď do výsledku.
-
+### 📥 Výstup
 Jako výstup musí program vytvořit soubor `ukol1_output.json`. Výstupní soubor musí:
 
-1. Být ve formátu JSON.
-2. Obsahovat slovník, kde klíče jsou znaky a hodnoty jejich četnost.
-3. **Volitelné**: Slovník má být seřazen podle klíčů.
+1. 📄 Být ve formátu **JSON**.  
+2. 📊 Obsahovat **slovník**, kde klíče jsou znaky a hodnoty jejich četnost.  
+3. 🔄 **Volitelné**: Slovník má být **seřazen podle klíčů**.  
 
-Zde odkaz na výsledný [skript](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_1.py).
- 
-- **Příklad výsledku**:
-  Pokud by soubor `alice.txt` obsahoval větu: Datová akademie se mi moc líbila. 
+🔗 **Zde odkaz na výsledný skript**: [antosova_daniela_1.py](https://github.com/DanielaAntosova/Domaci-ukoly-Python/blob/main/antosova_daniela_1.py)
+
+---
+
+### 📊 Příklad výsledku:
+Pokud by soubor `alice.txt` obsahoval větu:  
+> *Datová akademie se mi moc líbila.*  
 
 Výstup by byl následující:
 
@@ -40,8 +43,8 @@ Výstup by byl následující:
     "t": 1,
     "v": 1
 }
-
 ```
+
 # Úkol 2
 
 ## Zadání
